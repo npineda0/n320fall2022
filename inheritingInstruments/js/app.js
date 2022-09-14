@@ -10,6 +10,7 @@ class Instruments {
         this.playVerb = playVerb;
     }
 
+
     //method for playing instruments w/ duration argument
     playInstrument(duration) {
         //instrument will play b6 for a duration of time

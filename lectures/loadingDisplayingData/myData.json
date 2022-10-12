@@ -1,0 +1,6 @@
+[
+    { "name": "USA", "population": 20 },
+    { "name": "russia", "population": 10 },
+    { "name": "china", "population": 30 },
+    { "name": "australia", "population": 40 }
+]

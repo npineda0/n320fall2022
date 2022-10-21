@@ -1,4 +1,4 @@
-.gridBoard {
+#gridBoard {
     /*display as grid to get connect4 layout*/
     display: grid;
     /*7 vertical columns at 100px*/
@@ -7,16 +7,13 @@
     grid-template-rows: repeat(6, 100px);
     /*spaces the circles by 10px*/
     grid-gap: 10px;
-    height: 650px;
-    width: 760px;
     background-color:#3669c7;
     margin-top: 50px;
 }
 
 .gridCircle {
-    background-color: #fff;
-    /*makes circle*/
-    border-radius: 50px;
+    fill: #fff;
+    r: 50px;
 }
 
 #playAgainBtn {
